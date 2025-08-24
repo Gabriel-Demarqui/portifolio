@@ -1,0 +1,95 @@
+@media (max-width: 1500px) {
+
+  .navlinks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(10px);
+    clip-path: circle(50px at 90% -15%);
+    transition: 1s ease-out;
+    flex-direction: column;
+    gap: 100px;
+    pointer-events: none;
+  }
+
+  .navbar.active .navlinks {
+    clip-path: circle(1120px at 90% -15%);
+    pointer-events: all;
+  }
+
+  .menutoggle {
+    display: block; /* mostra o botão */
+    font-size: 35px;
+    z-index: 1;
+  }
+
+  #inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .inicio-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .texto {
+    text-align: center;
+    }
+
+  #projetos {
+    width: 100vw;
+    height: auto
+  }
+  .botaoCv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .timeline {
+    width: 95%;
+  }
+
+}
+
+/**************************/
+@media (max-width: 1500px) {
+    
+  #projetos {
+    width: 100vw;
+    height: auto
+  }
+
+  #Experiencia {
+    height: auto;
+    padding: 20px;
+  }
+
+  #sobre{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+   .about-card {
+    width: 80%;
+   }
+
+  .habilidades {
+  display: grid;
+  width: 80%;
+
+}
+
+}
