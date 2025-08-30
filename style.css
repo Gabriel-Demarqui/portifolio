@@ -19,8 +19,8 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/*section {
-  opacity: 0; /* começa invisível
+section {
+  opacity: 0; /* começa invisível*/
   transform: translateY(50px);
   transition: all 0.8s ease-out;
 }
@@ -28,7 +28,7 @@ body {
 .show {
   opacity: 1;
   transform: translateY(0);
-}*/
+}
 
 /*STILO DA SECTION APRESENTAÇÃO*/
 header {
