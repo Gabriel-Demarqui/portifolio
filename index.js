@@ -15,6 +15,6 @@ navbar.classList.toggle("active")
         entry.target.classList.remove("show"); // some de novo
     }
      });
-   }, { threshold: 0.2 }); // ativa quando 20% do elemento estiver visível
+   }, { threshold: 0.1 }); // ativa quando 20% do elemento estiver visível
 sections.forEach(sec => observer.observe(sec));
 
