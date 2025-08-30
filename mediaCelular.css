@@ -1,7 +1,6 @@
 @media (max-width: 706px) {
 
     body {
-        background-color: rgb(36, 75, 36); /* seu fundo verde */
         overflow-x: hidden; /* evita rolagem lateral */
     }
 
