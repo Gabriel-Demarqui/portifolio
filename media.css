@@ -1,11 +1,11 @@
-@media (max-width: 1500px) {
+@media (max-width: 1598px) {
 
   .navlinks {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.4); 
     backdrop-filter: blur(10px);
     clip-path: circle(50px at 90% -15%);
@@ -59,11 +59,12 @@
 }
 
 /**************************/
-@media (max-width: 1500px) {
+@media (max-width: 1880px) {
     
   #projetos {
     width: 100vw;
-    height: auto
+    height: auto;
+
   }
 
   #Experiencia {
@@ -74,6 +75,8 @@
   #sobre{
     display: flex;
     flex-direction: column;
+    height: auto;
+    padding: 25px;
   }
 
   .about-cards {

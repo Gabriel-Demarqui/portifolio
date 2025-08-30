@@ -1,0 +1,241 @@
+@media (max-width: 706px) {
+
+    body {
+        background-color: rgb(36, 75, 36); /* seu fundo verde */
+        overflow-x: hidden; /* evita rolagem lateral */
+    }
+
+    header {
+        box-sizing: border-box; 
+        position: fixed;
+        max-width: 100%;
+    }
+
+    .navbar {
+        padding: 10;
+        background-color: transparent;
+        box-sizing: border-box;         
+    }
+
+    .logo, .menutoggle{
+        font-size: 25px;
+    }
+
+    .texto .cargo {
+        font-size: 18px;
+    }
+    .texto .nome {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .texto .desc {
+        font-size: 15px;
+    }
+
+    .foto-container {
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+    
+    #sobre {
+        height: auto;
+    }
+    
+    #sobre h2 {
+        font-size: 20px;
+        margin-top: 15px ;
+    }
+
+    .about-cards {
+        margin-top: -50px;
+    }
+
+    .about-cards h3 {
+        font-size: 17px;
+    }
+
+    .about-cards p {
+        font-size: 14px;
+    }
+  
+
+    .habilidades {
+        display: grid;
+        width: 80%;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #000;
+        height: 218px;
+        font-size: 25px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+   #sobre .habilidades h2 {
+        font-size: 20px;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -90px;
+        height: 100px;
+        gap: 20px;
+    }
+
+    .skills-item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .skills-item p {
+        font-weight: bolder;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .projetos-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    #projetos h2 {
+        margin-top: -20px;
+        font-size: 20px;
+    }
+
+    .card h3{
+        font-size: 15px;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
+    
+    .Ver {
+        font-size: 13px;
+    }
+
+    #Experiencia {
+        display: none;
+    }
+
+    #Experiencia h2 {
+    font-size: 25px;
+    }
+
+    #Experiencia h3 {
+        font-size: 12px;
+    }
+
+    #Experiencia p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    
+    .content {
+        background-color: #0a0f2c;
+        padding: 20px;
+        position: relative;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 90%;           /* Limita a largura máxima */
+        
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: white;
+    }
+
+    #formacao {
+        background-color: #1E1F3D;
+        color: #fff;
+        padding: x;
+        text-align: center;
+        height: 80vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #formacao h2 {
+        font-size: 20px;
+    }
+
+    .cardformacao {
+        background-color: #0a0f2c;
+        border-radius: 12px;
+        padding: 20px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        box-shadow: 0 4px 10px rgba(0.5,0.5,0.5,0.5);
+        max-width: 900px;
+        height: auto;
+    }
+
+    .icon {
+        background: #333;
+        color: #fdd835;
+        font-size: 5rem;
+        padding: 15px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info h3 {
+        margin: 0 0 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .universidade {
+        font-size: 15px;
+        color:  #4cafef;;
+        margin: 0 0 10px;
+    }
+
+    .status {
+        color: #28774b; 
+        font-weight: bold;
+    }
+
+    .descricao {
+        font-size: 15px;
+        color: #ddd;
+    }
+
+    #contato {
+        background-color: #0a0f2c;
+    }
+
+    #contato h2 {
+        font-size: 25px;
+    }
+
+    #contato P {
+        font-size: 16PX;
+    }
+
+    #contato li {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .icones {
+        font-size: 11px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+}
