@@ -2,6 +2,7 @@
 
     body {
         overflow-x: hidden; /* evita rolagem lateral */
+        background-color: transparent;
     }
 
     header {
@@ -120,38 +121,58 @@
     }
 
     #Experiencia {
-        display: none;
+        height: auto;
+        gap: 0;
     }
 
     #Experiencia h2 {
-    font-size: 25px;
+    font-size: 20px;
     }
 
     #Experiencia h3 {
-        font-size: 12px;
+        font-size: 15px;
+        text-align: center;
     }
 
     #Experiencia p {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 10px;
+        text-align: center;
     }
 
+    .timeline::after {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;  
+    }
+
+    .container.left {
+        left: 0;
+        width: 100%;
+    }
+
+    .container.right {
+        left: 0;
+        width: 100%;
+    }
     
     .content {
-        background-color: #0a0f2c;
-        padding: 20px;
-        position: relative;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        max-width: 90%;           /* Limita a largura máxima */
-        
-        overflow-wrap: break-word;
-        white-space: normal;
-        color: white;
+        max-width: 100%;           /* Limita a largura máxima */
+        box-shadow: 0 4px 10px rgba(0.5,0.5,0.5,0.5);
+    }
+
+    .container::before {
+        display: none;
     }
 
     #formacao {
-        background-color: #1E1F3D;
+        background-color: #0a0f2c;
         color: #fff;
         padding: x;
         text-align: center;
@@ -213,7 +234,7 @@
     }
 
     #contato {
-        background-color: #0a0f2c;
+        background-color: #1E1F3D;
     }
 
     #contato h2 {
