@@ -131,13 +131,14 @@
 
     #Experiencia h3 {
         font-size: 15px;
-        text-align: center;
+        text-align: left;
+        color: #4cafef;
     }
 
     #Experiencia p {
         font-size: 12px;
         margin-top: 10px;
-        text-align: center;
+        text-align: left;
     }
 
     .timeline::after {
